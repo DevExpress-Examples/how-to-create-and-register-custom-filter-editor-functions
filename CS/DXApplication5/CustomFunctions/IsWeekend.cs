@@ -54,41 +54,4 @@ namespace DXSample {
             return typeof(bool);
         }
     }
-
-    public class IsWeekendFunction2 : ICustomFunctionDisplayAttributes
-    {
-        string ICustomFunctionDisplayAttributes.DisplayName => throw new NotImplementedException();
-
-        object ICustomFunctionDisplayAttributes.Image => throw new NotImplementedException();
-
-        int ICustomFunctionOperatorBrowsable.MinOperandCount => throw new NotImplementedException();
-
-        int ICustomFunctionOperatorBrowsable.MaxOperandCount => throw new NotImplementedException();
-
-        string ICustomFunctionOperatorBrowsable.Description => throw new NotImplementedException();
-
-        FunctionCategory ICustomFunctionOperatorBrowsable.Category => throw new NotImplementedException();
-
-        string ICustomFunctionOperator.Name => throw new NotImplementedException();
-
-        object ICustomFunctionOperator.Evaluate(params object[] operands)
-        {
-            throw new NotImplementedException();
-        }
-
-        bool ICustomFunctionOperatorBrowsable.IsValidOperandCount(int count)
-        {
-            throw new NotImplementedException();
-        }
-
-        bool ICustomFunctionOperatorBrowsable.IsValidOperandType(int operandIndex, int operandCount, Type type)
-        {
-            throw new NotImplementedException();
-        }
-
-        Type ICustomFunctionOperator.ResultType(params Type[] operands)
-        {
-            throw new NotImplementedException();
-        }
-    }
 }
