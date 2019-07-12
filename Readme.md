@@ -1,3 +1,5 @@
+# How to Create and Register Custom Filter Editor Functions
+
 This example illustrates how to create three custom functions:
 
 * **NotBeginsWith** - a function opposite to the standard *BeginsWith* function.
