@@ -29,9 +29,9 @@ namespace DXSample {
             
         }
         private static void OnQueryCustomUIFunctions(object sender, DevExpress.Data.Filtering.CustomFunctionEventArgs e) {
-            //if(e.PropertyType == typeof(string)) {
-            //    e.Add(NotBeginsWithFunction.FunctionName);
-            //}
+            if(e.PropertyType == typeof(string)) {
+                e.Add(NotBeginsWithFunction.FunctionName);
+            }
         }
     }
 }
