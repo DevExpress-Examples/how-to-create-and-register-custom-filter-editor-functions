@@ -29,9 +29,9 @@ Namespace DXSample
 
 		End Sub
 		Private Sub OnQueryCustomUIFunctions(ByVal sender As Object, ByVal e As DevExpress.Data.Filtering.CustomFunctionEventArgs)
-			if(e.PropertyType == typeof(string)) {
-			    e.Add(NotBeginsWithFunction.FunctionName);
-			}
+			'if(e.PropertyType == typeof(string)) {
+			'    e.Add(NotBeginsWithFunction.FunctionName);
+			'}
 		End Sub
 	End Module
 End Namespace
