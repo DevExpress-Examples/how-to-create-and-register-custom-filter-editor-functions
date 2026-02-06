@@ -12,7 +12,7 @@ This example creates three custom functions:
 * **IsDaysInterval** - checks whether a record belongs to the *“(Today - N days) ~ (Today + N days)”* timeframe.
 * **IsWeekend** - shows only Saturday and Sunday records.
 
-![WinForms Filter Editor - Create and register custom functions](https://raw.githubusercontent.com/DevExpress-Examples/how-to-create-and-register-custom-filter-editor-functions/22.1.3%2B/media/winforms-filter-control-custom-functions.png)
+![WinForms Filter Editor - Create and register custom functions](media/winforms-filter-control-custom-functions.png)
 
 The example demonstrates three methods (techniques) for registering custom functions (depending on the registration type you are using, feature availability may vary):
 
