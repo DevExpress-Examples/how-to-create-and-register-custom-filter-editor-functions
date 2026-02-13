@@ -25,7 +25,7 @@ The example demonstrates three methods (techniques) for registering custom funct
 
 * [FilterControl Class](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.FilterControl)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-create-and-register-custom-filter-editor-functions&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-create-and-register-custom-filter-editor-functions&~~~was_helpful=no)
 
